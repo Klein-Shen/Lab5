@@ -32,7 +32,7 @@ Hi everyone, I have ListExamples.java  and TestListExamples.java here, but the t
 
 **Show my name as**
 
-Ningqi Shen
+Anonymous to Classmates
 
 ---
 
@@ -48,11 +48,11 @@ For example, there is an information "expected:<[a, apple]> but was:<[apple, a]>
 ## Fix bugs
 
 For the bug of filter, the test showed the reversed list because in the filter method, the  `result.add(0, s)` this command always add the element at index 0.
-So I need to make change `result.add(0, s)` to `result.add(s)`. When using the vim I just need to move cursor to `0` and then `d2w`. After that 
+So I need to make change `result.add(0, s)` to `result.add(s)`, and then it would add element one by one with correct order. When using the vim I just need to move cursor to `0` and then `d2w`. After that 
 
 ![image](https://github.com/Klein-Shen/Lab5/assets/165833763/1a9c8759-499b-4934-a4f4-5bb3bb6b5b00)
 
-And then run it again if this works.
+And then run it again if this would work.
 
 First `:wq` to save and exit.
 
@@ -79,3 +79,6 @@ Then `bash test.sh` again to see if the change would work.
 ![image](https://github.com/Klein-Shen/Lab5/assets/165833763/d1e7c83b-715d-4026-a2a4-66eafb3af6ab)
 
 Obviously, it worked.
+
+# Part 2
+
