@@ -80,6 +80,9 @@ Obviously, it works.
 # Part 2
 
 After a period of study, I have acquired a significant amount of knowledge, including how to use `jdb` to debug on the terminal and how to navigate `vim`. 
+
 Additionally, I have mastered specific commands like the `find` command and the `grep` command I discussed in my previous lab report, both of which boast powerful capabilities. 
+
 These functions not only simplify complex tasks but also streamline intricate operations. Particularly in specialized environments akin to skill demo 4, this knowledge enables me to carry out standard operations, such as locating specific file paths and using `wc` to count lines in files. 
+
 While I have forgotten some details, in the `vimtutor` it emphasizes learning through practical application rather than mere rote memorization. And this can also be applied to the learning of other knowledge.
