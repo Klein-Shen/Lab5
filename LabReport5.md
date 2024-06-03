@@ -20,6 +20,8 @@ Looking for help about Some codes
 
 **Details**
 
+![image](https://github.com/Klein-Shen/Lab5/assets/165833763/b7b9694b-10c5-457e-bbf3-02065e2b7e11)
+
 ![image](https://github.com/Klein-Shen/Lab5/assets/165833763/f0913c0b-e60f-4a1b-84d3-6cab31526a2a)
 
 ![image](https://github.com/Klein-Shen/Lab5/assets/165833763/ef7a132c-75ca-4af7-9659-242bfaf59428)
@@ -48,7 +50,7 @@ For example, there is an information "expected:<[a, apple]> but was:<[apple, a]>
 ## Fix bugs
 
 For the bug of filter, the test showed the reversed list because in the filter method, the  `result.add(0, s)` this command always add the element at index 0.
-So I need to make change `result.add(0, s)` to `result.add(s)`, and then it would add element one by one with correct order. When using the vim I just need to move cursor to `0` and then `d2w`. After that 
+So I need to change `result.add(0, s)` to `result.add(s)`, and then it would add element one by one with correct order. When using the vim I just need to move cursor to `0` and then `d2w`. After that 
 
 ![image](https://github.com/Klein-Shen/Lab5/assets/165833763/1a9c8759-499b-4934-a4f4-5bb3bb6b5b00)
 
