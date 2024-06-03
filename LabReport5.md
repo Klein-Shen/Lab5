@@ -76,6 +76,8 @@ The code `result.add(list2.get(index2))` looks good. But then the next line give
 
 So here just move cursor to `1` of `index1`, and then use the command `r2` to replace 1 by 2. And then `:wq` to save and exit.
 
+![image](https://github.com/Klein-Shen/Lab5/assets/165833763/681bcb5f-f7be-4fd0-a8c6-183ff0e7d5c6)
+
 Then `bash test.sh` again to see if the change would work.
 
 ![image](https://github.com/Klein-Shen/Lab5/assets/165833763/d1e7c83b-715d-4026-a2a4-66eafb3af6ab)
